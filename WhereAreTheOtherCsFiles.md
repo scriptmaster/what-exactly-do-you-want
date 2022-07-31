@@ -9,4 +9,4 @@ Views: n+ files
 
 I've rewritten all these files and this is for my personal site.
 
-Again questions, questions. Talk is cheap.
+Again questions, questions. Just talking and talking, is cheap.
