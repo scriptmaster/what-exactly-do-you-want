@@ -51,8 +51,6 @@ services.AddCQRSHandlers();
     //services.AddControllers();
     //services.AddRazorPages();
 
-    // config.GetSection("Keys");
-
     services.AddAntiforgery(options => config.Bind("XSRFSettings", options));
 #endregion
 
@@ -63,9 +61,6 @@ services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "SheriffSaaS", Version = "v1" });
 });
-
-// Wait 30 seconds for graceful shutdown.
-// builder.Host.ConfigureHostOptions(o => o.ShutdownTimeout = TimeSpan.FromSeconds(30));
 
 builder.Host.UseSerilog((ctx, conf) => conf.ReadFrom.Configuration(ctx.Configuration));
 
@@ -120,3 +115,5 @@ app.Run();
 
 public partial class Program { }
 ```
+
+### Again why are you questioning me? Why cant you search in google? What problems do you have with .NET and Microsoft? Why are you troubling us even more and more?
